@@ -40,10 +40,10 @@ function setMascot(mascot) {
 		$('input').css({"color":"rgb("+palette[3]+")"});
 		$('div.sqr1').css({"border-color":"rgb("+palette[1]+")"});
 		document.getElementById("cell").style.backgroundColor = "rgb("+palette[2]+")";
-		$('h1').css({"color":"rgb("+palette[3]+")","-webkit-text-stroke-width":" 2px","-webkit-text-stroke-color":"rgb("+palette[4]+")"});
-		$('h2').css({"color":"rgb("+palette[6]+")","-webkit-text-stroke-width":" 2px","-webkit-text-stroke-color":"rgb("+palette[4]+")"});
-		$('h1.home').css({"color":"rgb("+palette[3]+")","-webkit-text-stroke-width":" 2px","-webkit-text-stroke-color":"rgb("+palette[4]+")"});
-		$('p.subtitle').css({"color":"rgb("+palette[3]+")","-webkit-text-stroke-width":" 2px","-webkit-text-stroke-color":"rgb("+palette[4]+")"});
+		$('h1').css({"color":"rgb("+palette[3]+")","text-shadow":"0 0 2px #000","text-shadow":"0 0 2px #000","text-shadow":"0 0 2px #000"});
+		$('h2').css({"color":"rgb("+palette[6]+")","text-shadow":"0 0 2px #000","text-shadow":"0 0 2px #000","text-shadow":"0 0 2px #000"});
+		$('h1.home').css({"color":"rgb("+palette[4]+")","text-shadow":"0 0 2px #000","text-shadow":"0 0 2px #000","text-shadow":"0 0 2px #000"});
+		$('p.subtitle').css({"font-size":"16px","color":"rgb("+palette[3]+")","text-shadow":"0 0 2px #000","text-shadow":"0 0 2px #000","text-shadow":"0 0 2px #000"});
 
 	}}
 
