@@ -42,6 +42,7 @@ function setMascot(mascot) {
 		document.getElementById("cell").style.backgroundColor = "rgb("+palette[2]+")";
 		$('h1').css("color","rgb("+palette[3]+")");
 		$('h2').css("color","rgb("+palette[6]+")");
+		$('h1.home').css("color","rgb("+palette[3]+")");
 		$('p.subtitle').css("color","rgb("+palette[3]+")");
 
 	}}
