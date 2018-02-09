@@ -32,18 +32,18 @@ function setMascot(mascot) {
 	img.onload=function(){window.onload=function() {
 		var colorThief = new ColorThief();
 		var palette = colorThief.getPalette(img, 7);
-		$('div.sqr').css("background-color","rgb("+palette[3]+")");
-		$('div.sqr').css("border-color","rgb("+palette[4]+")");
-		$('span').css("color","rgb("+palette[0]+")");
-		$('a').css("color","rgb("+palette[0]+")");
-		$('input').css("background-color","rgb("+palette[0]+")");
-		$('input').css("color","rgb("+palette[3]+")");
-		$('div.sqr1').css("border-color","rgb("+palette[1]+")");
+		$('div.sqr').css({"background-color":"rgb("+palette[3]+")"});
+		$('div.sqr').css({"border-color":"rgb("+palette[4]+")"});
+		$('span').css({"color":"rgb("+palette[0]+")"});
+		$('a').css({"color":"rgb("+palette[0]+")"});
+		$('input').css({"background-color":"rgb("+palette[0]+")"});
+		$('input').css({"color":"rgb("+palette[3]+")"});
+		$('div.sqr1').css({"border-color":"rgb("+palette[1]+")"});
 		document.getElementById("cell").style.backgroundColor = "rgb("+palette[2]+")";
-		$('h1').css("color","rgb("+palette[3]+")");
-		$('h2').css("color","rgb("+palette[6]+")");
-		$('h1.home').css("color","rgb("+palette[3]+")");
-		$('p.subtitle').css("color","rgb("+palette[3]+")");
+		$('h1').css({"color":"rgb("+palette[3]+")","-webkit-text-stroke-width":" 2px","-webkit-text-stroke-color":"rgb("+palette[4]+")"});
+		$('h2').css({"color":"rgb("+palette[6]+")","-webkit-text-stroke-width":" 2px","-webkit-text-stroke-color":"rgb("+palette[4]+")"});
+		$('h1.home').css({"color":"rgb("+palette[3]+")","-webkit-text-stroke-width":" 2px","-webkit-text-stroke-color":"rgb("+palette[4]+")"});
+		$('p.subtitle').css({"color":"rgb("+palette[3]+")","-webkit-text-stroke-width":" 2px","-webkit-text-stroke-color":"rgb("+palette[4]+")"});
 
 	}}
 
