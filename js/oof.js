@@ -1,6 +1,6 @@
 $(document).ready(function(event) {
 
-	var bgPath="bgs/"
+	var bgPath="../bgs/"
 	console.log(bgPath);
     var bg= bgPath + bgList[Math.floor(Math.random() * bgList.length)];
 	console.log(bg);
