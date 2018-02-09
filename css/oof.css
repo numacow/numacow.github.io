@@ -1,0 +1,41 @@
+@font-face {
+    font-family: VCR;
+    src: url("../VCR.ttf") format('truetype');
+}
+body{
+
+background-size: 100%;
+
+}
+.container {
+	position: absolute;
+    top:0;
+    left:0;
+    height:100vh;
+    width:100vw;
+	background-size:100%;
+}
+*{font-family:VCR;}
+#mydiv {
+    position: absolute;
+    z-index: 9;
+    background-color: #f1f1f1;
+    text-align: left;
+    border: 1px solid #d3d3d3;
+}
+
+#mydivheader {
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+    background: linear-gradient(to right, #00f , #77f);
+    color: #fff;
+	font-size:12px;
+}
+.git {
+ height:15vmin;
+ width:25vmin;
+ background:url("../git.png") no-repeat;
+ background-size: contain;
+ 
+}
