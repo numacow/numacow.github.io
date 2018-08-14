@@ -45,23 +45,157 @@ body {
 }
 
 
-@for $i from 1 to 10 {
-  .a#{$i} {
+
+  .a1 {
   -webkit-transform-style: preserve-3d;
-  -moz-transform: translateZ(-$i * 20px);
-  -webkit-transform: translateZ(-$i * 20px);
+  -moz-transform: translateZ(-1 * 20px);
+  -webkit-transform: translateZ(-1 * 20px);
   }
-  .b#{$i} {
+  .b1 {
   -webkit-transform-style: preserve-3d;
-  -moz-transform: translateX($i * 20px);
-  -webkit-transform: translateX($i * 20px);
+  -moz-transform: translateX(1 * 20px);
+  -webkit-transform: translateX(1 * 20px);
   }
-  .c#{$i} {
+  .c1 {
   -webkit-transform-style: preserve-3d;
-  -moz-transform: translateY($i * 20px);
-  -webkit-transform: translateY($i * 20px);
+  -moz-transform: translateY(1 * 20px);
+  -webkit-transform: translateY(1 * 20px);
   }
-}
+  .a2 {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform: translateZ(-2 * 20px);
+  -webkit-transform: translateZ(-2 * 20px);
+  }
+  .b2 {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform: translateX(2 * 20px);
+  -webkit-transform: translateX(2 * 20px);
+  }
+  .c2 {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform: translateY(2 * 20px);
+  -webkit-transform: translateY(2 * 20px);
+  }
+  .a3 {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform: translateZ(-3 * 20px);
+  -webkit-transform: translateZ(-3 * 20px);
+  }
+  .b3 {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform: translateX(3 * 20px);
+  -webkit-transform: translateX(3 * 20px);
+  }
+  .c3 {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform: translateY(3 * 20px);
+  -webkit-transform: translateY(3 * 20px);
+  }
+    .a4 {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform: translateZ(-4 * 20px);
+  -webkit-transform: translateZ(-4 * 20px);
+  }
+  .b4 {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform: translateX(4 * 20px);
+  -webkit-transform: translateX(4 * 20px);
+  }
+  .c4 {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform: translateY(4 * 20px);
+  -webkit-transform: translateY(4 * 20px);
+  }
+    .a5 {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform: translateZ(-5 * 20px);
+  -webkit-transform: translateZ(-5 * 20px);
+  }
+  .b5 {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform: translateX(5 * 20px);
+  -webkit-transform: translateX(5 * 20px);
+  }
+  .c5 {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform: translateY(5 * 20px);
+  -webkit-transform: translateY(5 * 20px);
+  }
+    .a6 {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform: translateZ(-6 * 20px);
+  -webkit-transform: translateZ(-6 * 20px);
+  }
+  .b6 {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform: translateX(6 * 20px);
+  -webkit-transform: translateX(6 * 20px);
+  }
+  .c6 {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform: translateY(6 * 20px);
+  -webkit-transform: translateY(6 * 20px);
+  }
+    .a7 {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform: translateZ(-7 * 20px);
+  -webkit-transform: translateZ(-7 * 20px);
+  }
+  .b7 {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform: translateX(7 * 20px);
+  -webkit-transform: translateX(7 * 20px);
+  }
+  .c7 {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform: translateY(7 * 20px);
+  -webkit-transform: translateY(7 * 20px);
+  }
+    .a8 {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform: translateZ(-8 * 20px);
+  -webkit-transform: translateZ(-8 * 20px);
+  }
+  .b8 {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform: translateX(8 * 20px);
+  -webkit-transform: translateX(8 * 20px);
+  }
+  .c8 {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform: translateY(8 * 20px);
+  -webkit-transform: translateY(8 * 20px);
+  }
+    .a9 {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform: translateZ(-9 * 20px);
+  -webkit-transform: translateZ(-9 * 20px);
+  }
+  .b9 {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform: translateX(9 * 20px);
+  -webkit-transform: translateX(9 * 20px);
+  }
+  .c9 {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform: translateY(9 * 20px);
+  -webkit-transform: translateY(9 * 20px);
+  }
+    .a10 {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform: translateZ(-10 * 20px);
+  -webkit-transform: translateZ(-10 * 20px);
+  }
+  .b10 {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform: translateX(10 * 20px);
+  -webkit-transform: translateX(10 * 20px);
+  }
+  .c10 {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform: translateY(10 * 20px);
+  -webkit-transform: translateY(10 * 20px);
+  }
 
 
 
