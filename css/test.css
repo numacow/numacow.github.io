@@ -1,0 +1,28 @@
+body{
+background:black;
+}
+div{
+color:#0af;
+width200px;
+height200px;
+position:absolute;
+transform-style:preserve-3d;
+opacity:0.5;
+overflow:hidden;
+font-size:33px;
+}
+#container{
+transform:rotateX(42deg) rotateY(25deg) rotateZ(72deg);
+transform-style:preserve-3d;
+width:200px;
+height:200px;
+animation:spin linear 12s infinite;
+position:relative;
+left:25%;
+}
+@keyframes spin{
+from{transform:rotateX(0deg) rotateY(0deg);}
+to{
+transform:rotateX(360deg) rotateY(360deg);
+}
+}
