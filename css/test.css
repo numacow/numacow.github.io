@@ -208,7 +208,6 @@ body {
   from { -moz-transform: rotateX(0deg) rotateY(0deg) }
   to { -moz-transform: rotateX(360deg) rotateY(360deg) }
 }
-
 #cube .front  {
   -webkit-transform: rotateY(0deg ) translateZ( 100px );
   -moz-transform: rotateY( 0deg ) translateZ( 100px );
@@ -230,4 +229,6 @@ body {
   -moz-transform: rotateX(  90deg ) translateZ( 100px );
 }
 #cube .bottom {
-  -webkit-transform: rotateX( -90deg ) translateZ( 100px 
+  -webkit-transform: rotateX( -90deg ) translateZ( 100px );
+  -moz-transform: rotateX( -90deg ) translateZ( 100px );
+}
