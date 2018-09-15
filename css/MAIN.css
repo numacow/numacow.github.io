@@ -12,7 +12,7 @@
   top: 0;
   height: 60px;
   width: 100%;
-  font-color: white;
+  color: white;
   background-color: black;
 }
 
@@ -25,7 +25,7 @@
   overflow-y: hidden;
   background-color: white;
   top: 60px;
-  text-align: left;
+  text-align: right;
   vertical-align: center;
 }
 
