@@ -24,6 +24,8 @@
   overflow-y: hidden;
   background-color: white;
   top: 60px;
+  text-align: left;
+  vertical-align: center;
 }
 
 #content-wrapper {
